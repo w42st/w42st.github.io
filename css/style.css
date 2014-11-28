@@ -88,7 +88,7 @@ height: 85%;
 width: 50%;
 float: left;
 height: 100%;
-overflow: scroll;
+/*overflow: scroll;*/
 }
 
 #left-panel{
@@ -125,7 +125,8 @@ height: 50px;
 
 #facebook-feed{
 padding: 20px;
-border-left: 1px solid #1d1d1b;
+/*border-left: 1px solid #1d1d1b;*/
+border-left: 1px solid #ccc;
 }
 
 .fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
