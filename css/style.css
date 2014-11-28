@@ -1,0 +1,216 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+/* MAIN CSS */
+html, body { 
+height: 100%; 
+width: 100%; 
+margin: 0; 
+}
+
+header{
+width: 100%;
+background: #ef6a66;
+overflow: hidden;
+padding: 
+}
+
+#logo, #slogan{
+height: 20px;
+}
+
+#side-header{
+float: right;
+padding: 20px;
+overflow: hidden;
+}
+
+#slogan{
+margin-bottom: 20px;
+}
+
+#social-icons{
+float: right;
+}
+
+#content{
+width: 100%;
+height: 85%;
+}
+
+#left-panel, #right-panel{
+width: 50%;
+float: left;
+height: 100%;
+overflow: scroll;
+}
+
+#left-panel{
+background: #fff;
+}
+
+#right-panel{
+background: #fff;
+}
+
+#this-issue{
+padding: 20px;
+}
+
+#issue-container{
+}
+
+#about-us{
+padding: 0 20px;
+}
+
+#about-us-container{
+padding: 20px;
+background: #668ca0;
+color: #fff;
+font-family: 'Open Sans', sans-serif; 
+font-weight: 300;
+line-height: 1.3;
+}
+
+.about-us-header, .this-issue-header{
+height: 50px;
+}
+
+#facebook-feed{
+padding: 20px;
+border-left: 1px solid #1d1d1b;
+}
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+#slogan{
+display: none;
+}
+
+#left-panel, #right-panel{
+width: 100%;
+height: auto;
+}
+
+#logo{
+margin: 0 auto;
+}
+
+#about-us{
+padding: 0;
+}
+
+#facebook-feed{
+border: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
