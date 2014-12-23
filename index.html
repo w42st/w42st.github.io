@@ -32,6 +32,8 @@
 
         $(document).ready(function() {
             set_elements_height();
+            //alert("parent: "+window.document.getElementById('facebook-feed')['style']['display']);
+
         });
 
         window.onresize = function(event) {
@@ -80,8 +82,8 @@
 		</div>
 
 		<div id="right-panel">
-			<div id="facebook-feed">
-                <iframe style="display: none;" name="feed-holder" id="feed-holder" src="social.html" noresize="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" />
+			<div id="facebook-feed" style="display: none;" >
+                <iframe name="feed-holder" id="feed-holder" src="social.html" noresize="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" />
 			</div>
 		</div>
 	</div>	
