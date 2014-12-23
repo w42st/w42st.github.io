@@ -58,7 +58,7 @@ header{
 width: 100%;
 background: #ef6a66;
 overflow: hidden;
-padding: 
+padding: 0;
 }
 
 #logo, #slogan{
@@ -127,16 +127,21 @@ height: 50px;
 padding: 20px;
 /*border-left: 1px solid #1d1d1b;*/
 border-left: 1px solid #ccc;
+height: 100%;
 }
 
 .fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
     width: 100% !important;
 }
 
+#facebook-feed-container{
+    height: 100%;
+}
 
-
-
-
+#feed-holder {
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -161,6 +166,11 @@ padding: 0;
 
 #facebook-feed{
 border: none;
+}
+
+#feed-holder {
+    width: 100%;
+    height: 100%;
 }
 
 }
